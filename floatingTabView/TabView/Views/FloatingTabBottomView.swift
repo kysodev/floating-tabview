@@ -88,8 +88,8 @@ struct FloatingTabBottomView: View {
             .onChange(of: selectedItem) { newValue in
                 withAnimation(.easeIn) {
                     if shouldShowPopoutMenu {
-                        shouldShowBlur = false
                         shouldShowPopoutMenu = false
+                        shouldShowBlur = false
                     }
                 }
             }

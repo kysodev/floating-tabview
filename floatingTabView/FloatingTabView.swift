@@ -72,8 +72,11 @@ struct FloatingTabView: View {
         
         // Custom Popout views:
         case .newItem:
-            Text("Example Popout View")
+            Text("Example Popout\n menu View")
+                .lineLimit(2)
                 .font(.system(.largeTitle, design: .rounded, weight: .bold))
+                .minimumScaleFactor(0.6)
+                .multilineTextAlignment(.center)
                 .tag(FloatingTabOption.newItem)
                 .transition(.move(edge: .bottom))
         }
