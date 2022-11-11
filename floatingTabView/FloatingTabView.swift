@@ -42,7 +42,7 @@ struct FloatingTabView: View {
         case .info:
             VStack(spacing: 20) {
                 Spacer()
-                Text("Infomation view")
+                Text("Information view")
                     .font(.system(.largeTitle, design: .rounded, weight: .bold))
                     .foregroundColor(Color.primary)
                 Text("Example VStack")
