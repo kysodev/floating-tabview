@@ -12,7 +12,12 @@ struct FloatingCustomTabView<Content: View>: View {
     @State var shouldShowPopoutMenu: Bool = false
     
     
-    /// To add nice custom animations, consider adding a .zIndex value to each item in the ZStack.
+    // MARK: Adding animation
+    /*
+     To add a nice custom animation to the 'Popout' menu buttons, consider adding a .zIndex value to each item in the ZStack if adding some kind of blurred view when the menu buttons appear (to make the buttons more distrinct from the actual content View under the custom TaBView.
+     Without adding a .zIndex value to the ZStack views, animations will not show correctly with an extra view.
+     */
+    
     var body: some View {
         ZStack {
             /// Called from the FloatingTabView.swift body.

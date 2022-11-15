@@ -73,7 +73,7 @@
 				96877B28291EAEE5009D61EF /* FloatingTabView.swift */,
 				96877B2A291EAEE6009D61EF /* Assets.xcassets */,
 				96877B2C291EAEE6009D61EF /* Preview Content */,
-				96877B3C291EC213009D61EF /* TabView */,
+				96877B3C291EC213009D61EF /* CustomFloatingTabView */,
 			);
 			path = floatingTabView;
 			sourceTree = "<group>";
@@ -86,7 +86,7 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		96877B3C291EC213009D61EF /* TabView */ = {
+		96877B3C291EC213009D61EF /* CustomFloatingTabView */ = {
 			isa = PBXGroup;
 			children = (
 				96877B36291EB5F5009D61EF /* FloatingTabViewHelper.swift */,
@@ -96,7 +96,7 @@
 				96877B48291ED470009D61EF /* PopoutMenu.swift */,
 				96877B43291EC326009D61EF /* Views */,
 			);
-			path = TabView;
+			path = CustomFloatingTabView;
 			sourceTree = "<group>";
 		};
 		96877B43291EC326009D61EF /* Views */ = {
