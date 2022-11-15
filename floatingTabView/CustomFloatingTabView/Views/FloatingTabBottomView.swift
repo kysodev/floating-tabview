@@ -19,7 +19,7 @@ struct FloatingTabBottomView: View {
         GeometryReader { geo in
             HStack {
                 ZStack {
-                    /// Popout menu sits behind the TabBar
+                    // Popout menu sits behind the TabBar. To add an animation to how this menu appears and disappears, animate the .yOffset when the isPresented variable is changed from PopoutMenu.swift.
                     PopoutMenu(isPresented: $shouldShowPopoutMenu, selectedItem: $selectedItem)
                         .frame(width: helper.tabViewWidth, height: helper.tabViewHeight)
                     
@@ -101,18 +101,6 @@ struct FloatingTabBottomView: View {
                     }
                 }
             }
-        }
-    }
-}
-
-fileprivate struct TabItemButton: View {
-    var destinationView: FloatingTabOption
-    var tabItem: FloatingTabItem
-    
-    var body: some View {
-        HStack {
-            Spacer()
-            
         }
     }
 }

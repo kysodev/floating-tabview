@@ -6,14 +6,7 @@ import SwiftUI
 struct floatingTabViewApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FloatingTabView()
         }
-    }
-}
-
-
-struct ContentView: View {
-    var body: some View {
-        FloatingTabView()
     }
 }

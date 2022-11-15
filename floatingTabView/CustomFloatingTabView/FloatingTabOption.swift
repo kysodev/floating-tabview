@@ -2,13 +2,14 @@
 //  Created by Sebastian Whitfield on 11/11/2022.
 import Foundation
 
+/// Enum with all TabOption cases used for FloatingTabItem objects.
 enum FloatingTabOption: Int, CaseIterable, Identifiable {
     var id: Self { self }
-    case home // 0
+    case home // Rawvalue: Int starts from 0
     case info
     case settings
     
-    // Popout menu options:
+    // Popout menu buttons:
     case newItem
     
     var tabItem: FloatingTabItem {
@@ -33,4 +34,12 @@ enum FloatingTabOption: Int, CaseIterable, Identifiable {
         case .newItem: return "New"
         }
     }
+}
+
+/// Model for the tabItem computed property on each case of the FloatingTabOption enum.
+struct FloatingTabItem {
+    var id: Int
+    var title: String
+    var unselectedImageName: String
+    var selectedImageName: String
 }

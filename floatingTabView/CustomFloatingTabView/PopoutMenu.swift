@@ -3,20 +3,17 @@
 import Foundation
 import SwiftUI
 
+/// The Popout menu that shows the "New item" button.
+/// To add additional views be sure to adjust .yOffset of new views so that they sit above the current button when the ZStack is visible.
 struct PopoutMenu: View {
     private let helper = FloatingTabViewHelper.shared
     
     @Binding var isPresented: Bool
     @Binding var selectedItem: FloatingTabOption
-    var yOffset: CGFloat {
-        isPresented ? -65 : .zero
-    }
-    var opacity: Double {
-        isPresented ? 1.0 : 0.0
-    }
-    var text: String {
-        isPresented ? "New item" : ""
-    }
+    
+    var yOffset: CGFloat { isPresented ? -65 : .zero }
+    var opacity: Double { isPresented ? 1.0 : 0.0 }
+    var text: String { isPresented ? "New item" : "" }
     
     var body: some View {
         ZStack {

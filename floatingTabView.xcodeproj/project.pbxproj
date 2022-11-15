@@ -15,7 +15,6 @@
 		96877B3B291EBBBA009D61EF /* FloatingTabManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96877B3A291EBBBA009D61EF /* FloatingTabManager.swift */; };
 		96877B3E291EC23A009D61EF /* FloatingTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96877B3D291EC23A009D61EF /* FloatingTabItemView.swift */; };
 		96877B40291EC2A1009D61EF /* FloatingTabOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96877B3F291EC2A1009D61EF /* FloatingTabOption.swift */; };
-		96877B42291EC2D3009D61EF /* FloatingTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96877B41291EC2D3009D61EF /* FloatingTabItem.swift */; };
 		96877B45291EC72D009D61EF /* FloatingCustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96877B44291EC72D009D61EF /* FloatingCustomTabView.swift */; };
 		96877B47291ECADB009D61EF /* FloatingTabBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96877B46291ECADB009D61EF /* FloatingTabBottomView.swift */; };
 		96877B49291ED470009D61EF /* PopoutMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96877B48291ED470009D61EF /* PopoutMenu.swift */; };
@@ -32,7 +31,6 @@
 		96877B3A291EBBBA009D61EF /* FloatingTabManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTabManager.swift; sourceTree = "<group>"; };
 		96877B3D291EC23A009D61EF /* FloatingTabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTabItemView.swift; sourceTree = "<group>"; };
 		96877B3F291EC2A1009D61EF /* FloatingTabOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTabOption.swift; sourceTree = "<group>"; };
-		96877B41291EC2D3009D61EF /* FloatingTabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTabItem.swift; sourceTree = "<group>"; };
 		96877B44291EC72D009D61EF /* FloatingCustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingCustomTabView.swift; sourceTree = "<group>"; };
 		96877B46291ECADB009D61EF /* FloatingTabBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTabBottomView.swift; sourceTree = "<group>"; };
 		96877B48291ED470009D61EF /* PopoutMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoutMenu.swift; sourceTree = "<group>"; };
@@ -92,7 +90,6 @@
 				96877B36291EB5F5009D61EF /* FloatingTabViewHelper.swift */,
 				96877B3A291EBBBA009D61EF /* FloatingTabManager.swift */,
 				96877B3F291EC2A1009D61EF /* FloatingTabOption.swift */,
-				96877B41291EC2D3009D61EF /* FloatingTabItem.swift */,
 				96877B48291ED470009D61EF /* PopoutMenu.swift */,
 				96877B43291EC326009D61EF /* Views */,
 			);
@@ -183,7 +180,6 @@
 				96877B49291ED470009D61EF /* PopoutMenu.swift in Sources */,
 				96877B47291ECADB009D61EF /* FloatingTabBottomView.swift in Sources */,
 				96877B37291EB5F5009D61EF /* FloatingTabViewHelper.swift in Sources */,
-				96877B42291EC2D3009D61EF /* FloatingTabItem.swift in Sources */,
 				96877B40291EC2A1009D61EF /* FloatingTabOption.swift in Sources */,
 				96877B27291EAEE5009D61EF /* floatingTabViewApp.swift in Sources */,
 				96877B3E291EC23A009D61EF /* FloatingTabItemView.swift in Sources */,

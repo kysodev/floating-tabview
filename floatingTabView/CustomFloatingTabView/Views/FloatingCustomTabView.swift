@@ -20,8 +20,7 @@ struct FloatingCustomTabView<Content: View>: View {
     
     var body: some View {
         ZStack {
-            /// Called from the FloatingTabView.swift body.
-            /// 1. After looping through the FloatingTabOption items, return the content inside the TabView.
+            // 1. After looping through the FloatingTabOption items, return the content inside the TabView.
             TabView(selection: $selectedTab) {
                 ForEach(tabItems, id: \.id) { tabItem in
                     content(tabItem)

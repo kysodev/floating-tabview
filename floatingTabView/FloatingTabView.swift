@@ -2,6 +2,7 @@
 //  Created by Sebastian Whitfield on 11/11/2022.
 import SwiftUI
 
+/// Initial view called by floatingTabViewApp.app.
 struct FloatingTabView: View {
     @StateObject var tabController = FloatingTabManager.shared
         
@@ -22,7 +23,7 @@ struct FloatingTabView: View {
         }
     }
     
-    // MARK: View builder for each FloatingTabOption.
+    // View builder for each FloatingTabOption view.
     @ViewBuilder
     func returnTabView(for tabOption: FloatingTabOption) -> some View {
         switch tabOption {
